@@ -7,12 +7,18 @@
 
 
 ## Tables
+
+| Pregunta | Respuesta |
+| ------ | ----------- |
 | peticiones que desencadena la consulta | GET http://www.gobiernodecanarias.org/istac/api/ |
 
-+ ¿Qué peticiones desencadena la consulta?
 
-+ ¿Qué tipo de petición estás realizando?
-+ Qué código de estatus devuelve.
+
+
+ ¿Qué peticiones desencadena la consulta?
+
+ ¿Qué tipo de petición estás realizando?
+ Qué código de estatus devuelve.
 Qué DNS tiene el servidor
 Qué IP tiene tiene el servidor
 ¿La página tiene alguna cookie?, ¿Cuáles?.
