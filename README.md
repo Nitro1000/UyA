@@ -4,7 +4,7 @@
 
 
 
-## Página 1:  http://www3.gobiernodecanarias.org/sanidad/scs/gc/18/Cita_Previa/index.html
+### Página 1:  http://www3.gobiernodecanarias.org/sanidad/scs/gc/18/Cita_Previa/index.html
 
 | Pregunta | Respuesta |
 | ------ | ----------- |
