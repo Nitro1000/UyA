@@ -10,9 +10,9 @@
 
 | Pregunta | Respuesta |
 | ------ | ----------- |
-| peticiones que desencadena la consulta | GET http://www.gobiernodecanarias.org/istac/api/ |
-
-
+| Peticiones que desencadena la consulta | http://www.gobiernodecanarias.org/istac/api/ |
+| Tipo de petición que se realiza        | GET|
+| Código de estatus que devuelve         | 200 |
 
 
  ¿Qué peticiones desencadena la consulta?
