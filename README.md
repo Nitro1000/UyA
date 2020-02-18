@@ -7,7 +7,7 @@
 
 
 ## Tables
-|peticiones que desencadena la consulta | GET http://www.gobiernodecanarias.org/istac/api/ |
+| peticiones que desencadena la consulta | GET http://www.gobiernodecanarias.org/istac/api/ |
 
 + ¿Qué peticiones desencadena la consulta?
 
