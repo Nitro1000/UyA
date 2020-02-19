@@ -3,7 +3,7 @@
 ## Seminario DCU:  BANCO de TIEMPO
 
 
-1. **Tareas que se llevarán a cabo en la fase de investigación** 
+- **Tareas que se llevarán a cabo en la fase de investigación** 
   -  Analizar a qué tipos de usuarios va dirigido el proyecto.
   -  Descubrir características comunes entre los usuarios.
   -  ¿Qué tareas realizan los usuarios para encontrar la información que necesitan?
@@ -13,11 +13,11 @@
     2. [Banco de tiempo de Tenerife  Guaydil](https://communities.cyclos.org/tenerife#home)
 
 
-2. **Diseño conceptual de la aplicación "Banco de Tiempo"**
+- **Diseño conceptual de la aplicación "Banco de Tiempo"**
 
 ![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/MapaConceptual.jpg)
 
-3. **Personajes y perfiles de usuario.**
+- **Personajes y perfiles de usuario.**
 
   - **Usuario adulto**: Será el usuario más común. Es el que sostiene la comunidad mediante  mediante la realización de tareas o solicitud de servicios
   - **Usuario tutelado**: Los usuarios menores de edad podrán realizar tareas en la comunidad siempre que alguno de sus tutores (cada usuario menor tendrá uno o dos tutores con perfil de usuario adulto, generalmente los padres) les autorice a realizar dichas tareas. Este tipo de usuario tendrá limitado el número de horas semanales dedicado a realizar tareas.
@@ -26,7 +26,7 @@
 
   
 
-4. **Especificación de requisitos**
+- **Especificación de requisitos**
 
   - Requisitos Funcionales:
     1. **Registro**: La APP dispondrá de un sistema de registro que solicitará: nombre de usuario, email, edad y número de teléfono (obligatorio para los usuario mayores de edad).
