@@ -1,6 +1,6 @@
 # UyA - PE102
 ## Grupo 7: Milton Daniel Rivas Quintero, Juan Carlos Vega Beltrán
-## Seminario DCU:  
+## Seminario DCU:  BANCO de TIEMPO
 
 
 1. **Tareas que se llevarán a cabo en la fase de investigación** 
@@ -8,11 +8,14 @@
   -  Descubrir características comunes entre los usuarios.
   -  ¿Qué tareas realizan los usuarios para encontrar la información que necesitan?
   -  Definir las personas y escenarios donde los usuarios utilizarán la aplicación.
+  - Documentación:
+    1. Ministerio de Educación: [Como hacer un Banco de Tiempo](http://laaventuradeaprender.intef.es/documents/10184/72439/Guia-LADA_Como-hacer-un-banco-de-tiempo.pdf)
+    2. [Banco de tiempo de Tenerife  Guaydil](https://communities.cyclos.org/tenerife#home)
 
 
 2. **Diseño conceptual de la aplicación "Banco de Tiempo"**
 
-
+![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/MapaConceptual.jpg)
 
 3. **Personajes y perfiles de usuario.**
 
