@@ -4,6 +4,10 @@
 
 
 1. **Tareas que se llevarán a cabo en la fase de investigación** 
+  -  Analizar a qué tipos de usuarios va dirigido el proyecto.
+  -  Descubrir características comunes entre los usuarios.
+  -  ¿Qué tareas realizan los usuarios para encontrar la información que necesitan?
+  -  Definir las personas y escenarios donde los usuarios utilizarán la aplicación.
 
 
 2. **Diseño conceptual de la aplicación "Banco de Tiempo"**
