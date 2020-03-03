@@ -9,7 +9,7 @@
 
 | Pregunta                               | Respuesta                 |
 | ------ | ----------- |
-| Peticiones que desencadena la consulta | http                      |
+| Peticiones que desencadena la consulta | html,jpeg,stylesheet      |
 | Tipo de petición que se realiza        | GET                       |
 | Código de estatus que devuelve         | 304                       |
 | DNS del servidor                       |www.gobiernodecanarias.org/istac/api/ |
@@ -25,7 +25,7 @@
 
 | Pregunta                               | Respuesta                 |
 | ------ | ----------- |
-| Peticiones que desencadena la consulta | http                      |
+| Peticiones que desencadena la consulta | html,script,jpeg          |
 | Tipo de petición que se realiza        | GET                       |
 | Código de estatus que devuelve         | 200                       |
 | DNS del servidor                       |www.gobiernodecanarias.org |
