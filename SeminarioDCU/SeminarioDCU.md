@@ -16,7 +16,7 @@
 
 - **Diseño conceptual de la aplicación "Banco de Tiempo"**
 
-![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/MapaConceptual.jpg)
+![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/MapaConceptual.jpg)
 
 - **Personajes y perfiles de usuario.**
 
