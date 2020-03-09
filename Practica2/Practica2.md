@@ -4,7 +4,7 @@
 
 ## Práctica 2: [Introducción a HTML](https://nitro1000.github.io/UyA/Practica2/)
 
-**Fichero del directorio**
+**Fichero2 del directorio**
   - index.html
   - MapaConceptual.jpg
 
