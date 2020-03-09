@@ -4,8 +4,9 @@
 
 ## Práctica 2: [Introducción a HTML](https://nitro1000.github.io/UyA/Practica2/)
 
-**Fichero2 del directorio**
+**Ficheros del directorio**
   - index.html
   - MapaConceptual.jpg
+  - Practica2.md (este mismo fichero)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica2/
