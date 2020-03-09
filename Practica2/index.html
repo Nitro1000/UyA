@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Banco de tiempo</title>
+</head>
+<article>
+    <header> Introducción al HTML </header>
+
+    <h1> Banco de tiempo </h1>
+
+    <h2> Introducción</h2>
+    <p> Se va a detallar una aplicación para gestionar el tiempo solidario que cada usuario aporta a la comunidad
+        asociada al banco de tiempo. Los usuarios invertirán una determinada cantidad tiempo en tareas que necesite la
+        comunidad: de
+        administración (mantenimiento de la comunidad) o para
+        cubrir las necesidades de los usuarios. Dicha aplicación
+        gestionará la cantidad de tiempo que cada usuario dedica a
+        la comunidad. Los usuarios tendrán una cuenta de tiempo
+        como si fuera una cuenta bancaria, y podrán disponer de dicho tiempo como forma de pago o cobro por unos
+        servicios
+        recibidos o prestados a la comunidad.
+        <br> <br>
+        Un banco de tiempo es un sistema de intercambio de servicios o habilidades, en el que la unidad de intercambio
+        no es el dinero habitual sino una medida de tiempo, por ejemplo, la hora. Se trata de ofrecer un servicio a
+        cambio de unidades de tiempo, es decir únicamente se contabiliza el tiempo invertido en el servicio prestado
+        para acumular esa ganancia en la cuenta de la persona que lo presta y que podrá canjear después para recibir
+        otra contraprestación.
+        Los tipos de servicios se pueden encontrar en un banco de tiempo podrían ser:
+    </p>
+
+    <ul>
+        <li> Atención y cuidado de personas </li>
+        <li> Cuidados personales </li>
+        <li> Tareas del hogar</li>
+        <li> Formación</li>
+        <li> Reparaciones</li>
+        <li> Orientación y asesoramiento</li>
+    </ul>
+
+
+    <h2> Propósito</h2>
+    <p>
+        Crear una aplicación que gestione la comunidad Banco de Tiempo, que funcionará como un banco pero la divisa será
+        el VT (Virtual Time). Cuanto más tiempo dedique un usuario de la comunidad a ayudar al resto de usuarios, más
+        VTs tendrá en su cuenta. Si por el contrario el usuario necesita
+        tiempo de la comunidad, se le restará el tiempo solicitado de su cuenta.
+    </p>
+
+    <h3> Ámbito del Sistema </h3>
+    <ul>
+        <li> Nombre del sistema: Banco de tiempo. </li>
+        <li> Indicaciones del alcance:</li>
+        <ul>
+            <li>El sistema debe dar información de todos los tipos de trabajo que estén disponibles. </li>
+            <li> Los datos de los usuarios deben ser tratados de forma correcta y asegurando suintegridad en todo
+                momento.</li>
+            <li> Debe tener distinción de usuarios entre usuarios menores de edad y usuarios adultos.</li>
+            <li> El sistema debe ser cómodo para los usuarios.</li>
+        </ul>
+        <li> Beneficios, objetivos y metas que se espera alcanzar:</li>
+        <ul>
+            <li> Gran cantidad de usuarios en el sistema. </li>
+            <li> Satisfacción de los usuarios con el sistema.</li>
+        </ul>
+        <li> Referencia a otros sistemas: <a name="Banco de tiempo de Tenerife Guaydil"
+                href="https://communities.cyclos.org/tenerife#home"> Banco de tiempo de Tenerife Guaydil </a></li>
+    </ul>
+
+    <table border="3">
+        <caption><b>Definiciones, acrónimos, abreviaturas</b></caption>
+        <tr>
+            <td><strong><abbr title="Gestor de Intercambio de Tiempo Solidario"> GITS </abbr> </strong></td>
+            <td>Gestor de Intercambio de Tiempo Solidario</td>
+        </tr>
+        <tr>
+            <td><strong> Timecoin</strong></td>
+            <td>Unidad de cambio del Banco de tiempo (su valor va en horas)</td>
+        </tr>
+        <tr>
+            <td><strong><abbr title="Virtual Time"> VT </abbr> </strong></td>
+            <td>Virtual Time</td>
+        </tr>
+    </table>
+
+
+    <h3> Referencias </h3>
+    <ol>
+        <li> <a name="Revista Digital"
+                href="https://revistadigital.inesem.es/educacion-sociedad/sabemos-que-es-y-como-funciona-un-banco-de-tiempo/">
+                Revista Digital: Banco de tiempo </a> </li>
+        <li> <a name="Banco de tiempo de Tenerife Guaydil" href="https://communities.cyclos.org/tenerife#home"> Banco de
+                tiempo de Tenerife Guaydil </a></li>
+        <li>Ministerio de Educación: <a name="Banco de tiempo de Tenerife Guaydil"
+                href="http://laaventuradeaprender.intef.es/documents/10184/72439/Guia-LADA_Como-hacer-un-banco-de-tiempo.pdf">
+                Como hacer un Banco de Tiempo </a></li>
+
+
+        <li> Seminario DCU: <a name="" href="https://www.userfocus.co.uk/fable/index.html"> "<em>La fábula del diseñador
+                    centrado en el usuario</em>"</a></li>
+    </ol>
+
+    <h3> Visión general del documento </h3>
+    <p>
+        Este documento describe el funcionamiento de la aplicación GITS para implementar una comunidad
+        que se beneficia de las propiedades de un “banco de tiempo”. La aplicación cumplirá con una serie
+        de requisitos funcionales impuestos por el cliente y otra serie de requisitos no funcionales que
+        añadimos para un correcto funcionamiento de la aplicación. En el documento se contemplan los
+        casos de uso y los diferentes roles que un usuario puede tener en la comunidad.
+    </p>
+
+
+
+	<h2> Descripción general	</h2> 
+
+  	<h3> Funciones del Producto </h3>
+
+Las funcionalidades de la aplicación será las siguientes:
+<ul>
+  <li> Registro: datos de usuario, aceptación de condiciones, …</li>
+  <li> Creación de una “moneda virtual”: timecoin</li>
+  <li> Consulta de “saldo” cuenta y operaciones típicas de una cuenta bancaria normal: ingresos, gastos, transferencias (asociada a la nueva “moneda” virtual</li>
+  <li> Buscador de productos con filtros</li>
+  <li> Tablón de anuncios dividido en categorías</li>
+  <li> Panel de gestión de trámites: reclamaciones, cancelación de cuenta, …</li>
+</ul>
+
+  <h3> Mapa conceptual del Banco de tiempo </h3>
+
+<img src="MapaConceptual.jpg" alt="Mapa conceptual" width=80% >
+
+    <h3> Características de los usuarios </h3>
+
+    <p> Consideramos 5 tipos de usuarios como podemos ver en la siguiente tabla:</p>
+
+    <table border="2">
+        <caption><b>Personajes y perfiles de usuario</b></caption>
+        <thead>
+            <tr>
+                <th>Usuarios</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Usuario adulto</td>
+                <td>
+                    Será el usuario más común. Es el que sostiene la comunidad mediante mediante la realización de
+                    tareas o solicitud de servicios
+                </td>
+            </tr>
+            <tr>
+                <td>Usuario tutelado</td>
+                <td>
+                    Los usuarios menores de edad podrán realizar tareas en la comunidad siempre que alguno de sus
+                    tutores
+                    (cada usuario menor tendrá uno o dos tutores con perfil de usuario adulto, generalmente los padres)
+                    les autorice a realizar dichas tareas.
+                    Este tipo de usuario tendrá limitado el número de horas semanales dedicado a realizar tareas.
+                </td>
+            </tr>
+            <tr>
+                <td>Administrador</td>
+                <td>
+                    El administrador llevará a cabo las tareas típicas de mantenimiento, actualizaciones, resolución de
+                    problemas técnicos, etc.
+                </td>
+            </tr>
+            <tr>
+                <td>Gestor</td>
+                <td>
+                    Usuarios con privilegios, estan autorizados para banear a otros usuarios que realicen actividades no
+                    autorizadas o ilícitas dentro de la aplicación
+                    (pornografía, fraude, etc), resolución de disputas entre usuarios, etc.
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    
+    
+     <h2> Requisitos funcionales </h3>
+    <ul> 
+         <li> <strong>Registro:</strong> La APP dispondrá de un sistema de registro que solicitará: nombre de usuario,
+email, edad y número de teléfono (obligatorio para los usuario mayores de edad). </li>
+         <li> <strong>  Verificación de Usuario:  </strong> Se necesita saber los datos del usuario y así mostrar información
+relevante dependiendo del tipo de usuario que sea. Por ejemplo si fuera un usuario tutelado
+sólo se mostrarán trabajos que puedan realizar menores de edad o que sus tutores están de
+acuerdo que ellos realicen. </li>
+         <li>  <strong> Cuenta de timecoins: </strong> al registrarse el usuario se le asignará una cuenta en el Banco de
+Tiempo donde podrá ver y gestionar el tiempo que ha ganado.</li>
+         <li>   <strong> Catálogo de servicios:  </strong> Existirá un catálogo de servicios que se pueden prestar a la
+comunidad, agrupados por secciones de afinidad.</li>
+         <li>   <strong> Pasarela de pago interna:  </strong> Se emulará una pasarela de pago para gestionar la
+contratación de servicios y “pagar” con cargo a la cuenta correspondiente del Banco de
+tiempo. </li>
+         <li>  <strong> Gestor de trámites: </strong> Habrá una serie de formularios online “adhoc” para gestionar los
+diversos trámites inherentes a este tipo de plataformas: reclamaciones, solicitudes,
+cancelación de cuenta, tutela de menores no parentales, etc</li>
+         <li>   <strong> Buscador: </strong> La aplicación debe contar con un buscador para que al momento de buscar algún
+tipo de trabajo se pueda filtrar entre los distintos tipos que hay. </li>        
+    </ul>
+	
+<h2> Formulario </h2>
+
+<form action= "MAILTO: alu0100996944@hotmail.com" method= "GET">
+
+	<p>Introduzca su nombre de usuario: <input type="text" name="nombre" value="" required></p>
+
+<p>Introduzca su correo: <input type="text" name="correo" required></p>
+
+<p>Introduzca su teléfono: <input type="tel" name="telefono" size="9" required></p>
+<p> <input button type="submit" name="Enviar"></p>
+</form> 
+
+
+    
+    
+    <footer> Grupo 7 UyA: Jefry Izquierdo, Milton Rivas, Juan Carlos Vega</footer>
+</article>
+
+</html>
