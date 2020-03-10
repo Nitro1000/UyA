@@ -12,3 +12,4 @@
 
 # SEMINARIOS
 ## Seminario DCU: [Banco de tiempo](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/SeminarioDCU.md)
+## Seminario [WEB para personas disfuncionales}()
