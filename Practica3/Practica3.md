@@ -5,7 +5,7 @@
 ## Práctica 3: [Introducción al CSS](https://nitro1000.github.io/UyA/Practica3/)
 
 **Ficheros del directorio**
-  - [index.html](https://github.com/Nitro1000/UyA/blob/master/practica_3/index.html)
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica3/index.html)
   - [cabecera.jpg](https://github.com/Nitro1000/UyA/blob/master/practica_3/cabecera.jpg)
   - [style.css](https://github.com/Nitro1000/UyA/blob/master/Practica3/style.css)
   - [Practica2.md](https://github.com/Nitro1000/UyA/blob/master/Practica2/Practica2.md) (este mismo fichero)
