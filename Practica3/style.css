@@ -3,10 +3,6 @@
 }
 
 
-header {
-  height: 100px;
-  width: 410px;
-}
 
 /* #fondo{background-image: url(cabecera.jpg);} */
 
@@ -66,17 +62,28 @@ table .enlac{
   /* min-height: 300px; */
   width: 170px;
   /* background-color: rebeccapurple; */
-  text-align: center;
-  
+  text-align: center;  
 }
+
+
+
+.cabecera {
+  height: 100px;
+  background-image: url(cabecera.jpg);
+  vertical-align: middle;
+}
+
+
 .section-left {
   width: 430px;
   /* background-color: blueviolet; */
+   text-align: justify;
 }
 .section-right {
   width: 170px;
   /* background-color: aqua; */
   font-size: 1.05em;
+
   
 }
 
@@ -89,13 +96,18 @@ footer {
 #navegador ul{
   list-style-type: none;
   text-align: center;
-  background-image: url(cabecera.jpg);
+    /* background-image: url(cabecera.jpg);
+  height: 100px;
+  vertical-align: middle; */
+  margin-top: 1.5em;
 }
 
 #navegador li{
-   display: inline;
+   display: inline; 
    text-align: center;
    margin: 0 0 0 0;
+
+
 }
 
 
