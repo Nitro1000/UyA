@@ -10,10 +10,10 @@
   - Web del protecto asociada a Github: https://nitro1000.github.io/UyA/Practica2/
   
 ## Práctica 3: [Introducción al CSS](https://nitro1000.github.io/UyA/Practica3/)
-  - [index.html](https://github.com/Nitro1000/UyA/blob/master/practica_3/index.html)
-  - [cabecera.jpg](https://github.com/Nitro1000/UyA/blob/master/practica_3/cabecera.jpg)
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica3/index.html)
+  - [cabecera.jpg](https://github.com/Nitro1000/UyA/blob/master/Practica3/cabecera.jpg)
   - [style.css](https://github.com/Nitro1000/UyA/blob/master/Practica3/style.css)
-  - [Practica2.md](https://github.com/Nitro1000/UyA/blob/master/Practica2/Practica2.md) (este mismo fichero)
+  - [Practica3.md](https://github.com/Nitro1000/UyA/blob/master/Practica3/Practica3.md) (este mismo fichero)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica3/
 
