@@ -11,5 +11,3 @@
   - [Practica2.md](https://github.com/Nitro1000/UyA/blob/master/Practica2/Practica2.md) (este mismo fichero)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica3/
-
-
