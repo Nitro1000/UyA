@@ -1,0 +1,88 @@
+header {
+  background-image: url(cabecera.jpg);
+  height: 100px;
+  width: 410px;
+}
+
+body{
+  background-color: burlywood;
+}
+
+a {
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+a:hover {
+  color: red;
+}
+
+p {
+  font-family: Arial;
+}
+
+table .enlac{
+  color: green;
+}
+
+
+.content {
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: Arial;
+  color: black;
+  font-size: 1.05em;
+  background-image: url(cabecera.jpg);
+}
+
+.col {
+  float: left;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.rside {
+  width: 430px;
+  
+}
+.lside {
+  min-height: 300px;
+  width: 340px;
+  background-color: rebeccapurple;
+}
+.section-left {
+  width: 230px;
+  background-color: blueviolet;
+}
+.section-right {
+  width: 200px;
+  background-color: aqua;
+}
+
+footer {
+  width: 770px;
+  background-color: salmon;
+}
+
+#navegador ul{
+  list-style-type: none;
+  text-align: center;
+}
+#navegador li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+#navegador li a {
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
