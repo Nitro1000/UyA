@@ -70,6 +70,7 @@ table .enlac{
 
 .cabecera {
   height: 100px;
+  width: 430px;
   background-image: url(cabecera.jpg);
   vertical-align: middle;
 }
