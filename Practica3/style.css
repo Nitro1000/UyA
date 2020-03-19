@@ -78,12 +78,12 @@ table .enlac{
 
 
 .section-left {
-  width: 300px;
+  width: 280px;
   /* background-color: blueviolet; */
    text-align: justify;
 }
 .section-right {
-  width: 130px;
+  width: 150px;
   /* background-color: aqua; */
   font-size: 0.85em;
   text-align: center;
