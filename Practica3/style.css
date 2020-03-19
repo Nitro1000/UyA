@@ -8,7 +8,7 @@
 
 body{
   background-color: burlywood;
-  font-size: 1.05em;
+  font-size: 1.5em;
 }
 
 a {
@@ -55,7 +55,7 @@ table .enlac{
 }
 
 .rside {
-  width: 600px;
+  width: 430px;
   
 }
 .lside {
@@ -76,12 +76,12 @@ table .enlac{
 
 
 .section-left {
-  width: 430px;
+  width: 300px;
   /* background-color: blueviolet; */
    text-align: justify;
 }
 .section-right {
-  width: 170px;
+  width: 130px;
   /* background-color: aqua; */
   font-size: 1.05em;
 
