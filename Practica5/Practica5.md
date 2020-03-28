@@ -10,3 +10,8 @@
   - [img/]( ): Carpeta con las **imágenes** de la página
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
+
+
+| Funciones JAvascritp                              | Propósito                 |
+| ------ | ----------- |
+| Peticiones que desencadena la consulta | html,jpeg,stylesheet      |
