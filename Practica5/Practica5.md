@@ -14,7 +14,7 @@
 
 | Funciones Javascritp                    | Propósito                                     | 
 | ------                                  | -----------                                   | 
-| document.getElementById(id)             | Devuelve una referencia al elemento por su **id**. Donde **id** ss una cadena sensible a mayúsculas referida al ID único del elemento buscado. | 
+| document.getElementById(id)             | Devuelve una referencia al elemento por su **id**. Donde **id** ss una cadena sensible a mayúsculas referida al ID único del elemento buscado. El valor de la función es una referencia a un objeto Element, o null si un elemento con el ID especificado no se encuentra en el documento.| 
 
 
 | document.getElementsByTagName(name)     | .........    |
