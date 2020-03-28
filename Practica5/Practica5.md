@@ -12,8 +12,8 @@
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
 
-| Funciones Javascritp                    | Propósito                                     |     Sintaxis |
-| ------                                  | -----------               |
+| Funciones Javascritp                    | Propósito                                     |     Sintaxis      |
+| ------                                  | -----------                                   |-----------        |
 | document.getElementById(id)             | Devuelve una referencia al elemento por su ID | elemento = document.getElementById(id); |
 
 
