@@ -14,10 +14,8 @@
 
 | Funciones Javascritp                    | Propósito                                     | 
 | ------                                  | -----------                                   | 
-| document.getElementById(id)             | Devuelve una referencia al elemento por su **id**. Donde **id** ss una cadena sensible a mayúsculas referida al ID único del elemento buscado. El valor de la función es una referencia a un objeto Element, o null si un elemento con el ID especificado no se encuentra en el documento.| 
-
-
-| document.getElementsByTagName(name)     | .........    |
+| document.getElementById(**id**)             | Devuelve una referencia al elemento por su **id**. Donde **id** es una cadena sensible a mayúsculas referida al ID único del elemento buscado. El valor retornado por la función es una referencia a un objeto Element, o null si un elemento con el ID especificado no se encuentra en el documento.| 
+| document.getElementsByTagName(**name**)     | Sirve para seleccionar elementos con un nombre de etiqueta determinado. Este método acepta un nombre de etiqueta (**name**) y devuelve un conjunto de elementos (HTMLCollection) con el nombre de etiqueta correspondiente en el orden en que aparecen en el documento.  |
 | document.getElementsByClassName(name)   | .........    |
 | element.innerHTML = new html content    | .........    |
 | element.attribute = new value           | .........    |
