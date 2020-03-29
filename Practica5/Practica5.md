@@ -26,7 +26,7 @@
 | document.appendChild(**element**)           | Agrega un nuevo nodo al final de la lista de un elemento hijo de un elemento padre especificado. Si el hijo (**element**) es una referencia (hace referencia) hacia un nodo existente en el documento actual, este es quitado del padre actual para ser puesto en el nodo padre nuevo. La clave está en si el **element** (Child) es una referencia a un nodo existente en el documento. |
 | document.replaceChild(**new**, **old**)         | El método *replaceChild()* reemplaza un nodo secundario (**old**) con un nuevo nodo (**new**). El nuevo nodo podría ser un nodo existente en el documento, o puede crear un nuevo nodo. Se suele usar este método para eliminar un nodo hijo de un elemento.|
 | document.write(**text**)                    | Este método escribe expresiones HTML o código JavaScript en un documento. El método *document.write()* se usa principalmente para las pruebas: si se usa después de que un documento HTML está completamente cargado, eliminará todo el HTML existente. Cuando este método no se usa para probar, a menudo se usa para escribir texto en una secuencia de salida abierta por el método *document.open()*.  |
-| document.getElementById(**id**).onclick = function(){code}      | .........    |
+| document.getElementById(**id**).onclick = function(){code}      | Con este método definimos la acción que se va a realizar  ("*function()*") al hacer click la referencia devuelta al elemento por su **id**  |
 
 
 2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado
