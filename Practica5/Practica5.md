@@ -20,14 +20,15 @@
 | element.innerHTML = new html content    | La propiedad *element.innerHTML* devuelve o establece la sintaxis HTML describiendo los descendientes del elemento. Al establecerse se reemplaza la sintaxis HTML del elemento por la nueva. Cuando se establece el valor de *innerHTML*, se eliminan todos los descendientes de element, analiza la cadena htmString y asigna los nodos resultantes como descendientes de *element*.|
 | element.attribute = new value           | La propiedad *element.attributes* retorna una colección "viva" cuyos nodos son todos los atributos registrados en el nodo especificado. Es un *NamedNodeMap*, no un Array, así que no tiene los métodos de Array y los índices de nodo Attr pueden diferir en cada navegador. Más concretamente attributes es un conjunto de pares de cadenas nombre/valor que representan la información relativa a cada atributo.    |
 | element.style.property = new style      | La propiedad de estilo (*element.style*) devuelve un objeto CSSStyleDeclaration, que representa el atributo de estilo de un elemento. La propiedad de estilo se usa para obtener o establecer un estilo específico de un elemento usando diferentes propiedades CSS. *i.e.*: element.style.backgroundColor = "red";   (Define el color de fondo de un elemento a "rojo")   |
-| element.setAttribute(attribute, value)  | Establece el valor (*value*) de un atributo (*atribute*) en el elemento indicado. Si el atributo ya existe, el valor es actualizado, en caso contrario, el nuevo atributo es añadido con el nombre y valor indicado.
+| element.setAttribute(**attribute**, **value**)  | Establece el valor (*value*) de un atributo (*atribute*) en el elemento indicado. Si el atributo ya existe, el valor es actualizado, en caso contrario, el nuevo atributo es añadido con el nombre y valor indicado.
 Para obtener el valor actual de un atributo, se utiliza *getAttribute()*; para eliminar un atributo, se llama a *removeAttribute()*.  Los parámetros de esta función son **name** y **value** ambos son *DOMString* e indican el nombre del atributo cuyo valor se va a cambiar y el el valor que asignar al atributo respectivamente|
-| document.createElement(element)         | .........    |
-| document.removeChild(element)           | .........    |
-| document.appendChild(element)           | .........    |
-| document.replaceChild(new, old)         | .........    |
-| document.write(text)                    | .........    |
-| document.getElementById(id).onclick = function(){code}      | .........    |
+| document.createElement(**element**)         | En el documento HTML, document.createElement () es un método utilizado para crear el elemento HTML. Se crea el elemento especificado usando elementName o se crea un elemento HTML desconocido si no se reconoce el elementName especificado. \underline{Sintaxis}: var elemento = *document.createElement (**element**)*;
+En la sintaxis anterior, elementName se pasa como parámetro. elementName especifica el tipo del elemento creado. El nodeName del elemento creado se inicializa con el valor elementName. Document.createElement () devuelve el elemento recién creado. |
+| document.removeChild(**element**)           | .........    |
+| document.appendChild(**element**)           | .........    |
+| document.replaceChild(**new**, **old**)         | .........    |
+| document.write(**text**)                    | .........    |
+| document.getElementById(**id**).onclick = function(){code}      | .........    |
 
 
 2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado
