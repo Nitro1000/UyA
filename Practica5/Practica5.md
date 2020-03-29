@@ -18,7 +18,7 @@
 | document.getElementsByTagName(**name**)   | Sirve para seleccionar elementos con un nombre de etiqueta determinado. Este método acepta un nombre de etiqueta (**name**) y devuelve un objeto  *HTMLCollection* (conjunto de elementos) con el nombre de etiqueta correspondiente en el orden en que aparecen en el documento.  |
 | document.getElementsByClassName(**name**) | El método devuelve una colección de todos los elementos en el documento con el nombre de clase especificado (**name**), como un objeto *HTMLCollection*. El objeto *HTMLCollection* representa una colección de nodos. Se puede acceder a los nodos por números de índice. El índice comienza en 0. |
 | element.innerHTML = new html content    | La propiedad *element.innerHTML* devuelve o establece la sintaxis HTML describiendo los descendientes del elemento. Al establecerse se reemplaza la sintaxis HTML del elemento por la nueva. Cuando se establece el valor de *innerHTML*, se eliminan todos los descendientes de element, analiza la cadena htmString y asigna los nodos resultantes como descendientes de *element*.|
-| element.attribute = new value           | .........    |
+| element.attribute = new value           | La propiedad *element.attributes* retorna una colección "viva" cuyos nodos son todos los atributos registrados en el nodo especificado. Es un *NamedNodeMap*, no un Array, así que no tiene los métodos de Array y los índices de nodo Attr pueden diferir en cada navegador. Más concretamente attributes es un conjunto de pares de cadenas nombre/valor que representan la información relativa a cada atributo.    |
 | element.style.property = new style      | .........    |
 | element.setAttribute(attribute, value)  | .........    |
 | document.createElement(element)         | .........    |
