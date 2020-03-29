@@ -13,7 +13,7 @@
 1. tabla describiendo el propósito de las funciones javascript
 
 |Funciones Javascritp                      | Propósito    |                                   
-|  ------                                  | -----------  |                                
+|  :------:                                  | -----------  |                                
 | document.getElementById(**id**)          | Devuelve una referencia al elemento por su **id**. Donde **id** es una cadena sensible a mayúsculas referida al ID único del elemento buscado. El valor retornado por la función es una referencia a un objeto Element, o null si un elemento con el ID especificado no se encuentra en el documento.|
 | document.getElementsByTagName(**name**)  | Sirve para seleccionar elementos con un nombre de etiqueta determinado. Este método acepta un nombre de etiqueta (**name**) y devuelve un objeto  *HTMLCollection* (conjunto de elementos) con el nombre de etiqueta correspondiente en el orden en que aparecen en el documento.  |
 
