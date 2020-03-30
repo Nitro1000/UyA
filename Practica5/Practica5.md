@@ -6,7 +6,6 @@
 
 **Ficheros del directorio**
   - [Arbol DOM UyA Practica 5.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.pdf)
-  - [Arbol DOM UyA Practica 5.png](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
   - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md): Este fichero con el contenido de la Práctica 5
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html): Índice de la página WEB
   - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html): Código con el conversor de moneda 
@@ -44,7 +43,7 @@
 
 **2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
 
-![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
+![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/Arbol-DOM-UyA-Practica-5.jpg)
 
 
 #
