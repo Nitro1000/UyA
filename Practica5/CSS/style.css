@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(75, 51, 20);
+  background-color: rgba(153, 102, 52, 0.414);
   font-size: 1.05em;
   font-family: Arial, sans-serif;
   display: flex;
@@ -21,12 +21,17 @@ p {
   margin-top: 0.5em;
 }
 
-ul{
+ul {
   margin-top: 0.5em;
 }
-.menuLe li{
+
+.menuLe li {
   width: 100%;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bolder;
 }
+
 table .enlac {
   color: green;
 }
