@@ -1,5 +1,5 @@
 body {
-  background-color: brown lighten-2;
+  background-color: burlywood;
   font-size: 1.05em;
   font-family: Arial, sans-serif;
   display: flex;
@@ -30,7 +30,7 @@ table .enlac {
 }
 
 .cabecera {
-  background-image: url(/img/cabecera.jpg);
+  background-image: url(../img/cabecera.jpg);
 }
 
 div,
