@@ -10,6 +10,7 @@
   - [img/]( ): Carpeta con las **imágenes** de la página
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
+
 **1. tabla describiendo el propósito de las funciones javascript**
 
 |Funciones Javascritp                       | Propósito    |                                   
@@ -29,7 +30,7 @@
 | document.getElementById(**id**).onclick = function(){code}      | Con este método definimos la acción que se va a realizar  ("*function()*") al hacer click la referencia devuelta al elemento por su **id**  |
 
 
-2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado
+**2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado**
 
 ![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.png)
 
