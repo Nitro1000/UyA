@@ -22,6 +22,15 @@
   - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica4/img): Carpeta con las **imágenes** de la página
   - [Practica4.md](https://github.com/Nitro1000/UyA/blob/master/Practica4/practica4.md)
   - **Link página WEB**: https://nitro1000.github.io/UyA/Practica4/
+  
+## Práctica 5: [Introducción a Javascript](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md)
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html): Índice de la página WEB
+  - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html): Código con el conversor de moneda 
+  - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
+  - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica5/CSS): Carpeta con los ficheros de **estilo**
+  - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica5/img): Carpeta con las **imágenes** de la página
+  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/practica5.md)
+  - **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
 
 
