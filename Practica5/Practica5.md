@@ -6,8 +6,15 @@
 
 **Ficheros del directorio**
   - [Arbol DOM UyA Practica 5.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.pdf)
-  - [Arbol DOM UyA Practica 5.png](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
   - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md): Este fichero con el contenido de la Práctica 5
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html): Índice de la página WEB
+  - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html): Código con el conversor de moneda 
+  - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
+  - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica5/CSS): Carpeta con los ficheros de **estilo**
+  - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica5/img): Carpeta con las **imágenes** de la página
+  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md)
+  - **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
+
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
@@ -36,17 +43,41 @@
 
 **2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
 
-![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
+![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/Arbol-DOM-UyA-Practica-5.jpg)
 
 
 #
 
 3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
 
+![**Conversor**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/conversor.jpg)
+
+Para ver el fichero con el código ir al repositorio de la Práctica 5 ó directamente ir al fichero: [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html) .
+Si se quiere probar el script ir a: https://nitro1000.github.io/UyA/Practica5/Conversor.html
+
+
+
+
 #
 
 4. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).
 
+
+![**Calculo**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/calculo.jpg)
+
+Debido a la longitud del fichero adjuntamos el link directo por si se quiere  ver completo:  [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html). 
+
+Para ver resultado que da el script ir a:  https://nitro1000.github.io/UyA/Practica5/Calculo.html
+
+
 # 
 
+
 5. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y encabezados en tu página de inicio.
+
+![**script_contador**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/contador.jpg)
+
+Aquí ponemos sólo el script, que está dentro del índice general del proyecto, para ver el documento completo directamente a: [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html)
+Si se quiere ver la página Web ir a: https://nitro1000.github.io/UyA/Practica5/
+
+
