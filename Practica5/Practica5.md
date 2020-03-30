@@ -31,6 +31,8 @@
 
 2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado
 
+![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/MapaConceptual.jpg)
+
 3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
 
 4. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).
