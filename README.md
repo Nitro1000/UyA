@@ -29,7 +29,7 @@
   - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
   - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica5/CSS): Carpeta con los ficheros de **estilo**
   - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica5/img): Carpeta con las **imágenes** de la página
-  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/practica5.md)
+  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md)
   - **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
 
