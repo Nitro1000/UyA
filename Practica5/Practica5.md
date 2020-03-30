@@ -8,6 +8,14 @@
   - [Arbol DOM UyA Practica 5.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.pdf)
   - [Arbol DOM UyA Practica 5.png](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
   - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md): Este fichero con el contenido de la Práctica 5
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html): Índice de la página WEB
+  - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html): Código con el conversor de moneda 
+  - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
+  - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica5/CSS): Carpeta con los ficheros de **estilo**
+  - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica5/img): Carpeta con las **imágenes** de la página
+  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md)
+  - **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
+
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
