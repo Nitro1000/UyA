@@ -11,7 +11,7 @@
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
-**1. tabla describiendo el propósito de las funciones javascript**
+###**1. tabla describiendo el propósito de las funciones javascript**
 
 |Funciones Javascript                      | Propósito    |                                   
 |  :------:                                 | -----------  |                                
@@ -32,7 +32,7 @@
 
 
 
-**2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
+###**2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
 
 ![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.png)
 
