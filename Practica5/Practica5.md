@@ -10,7 +10,7 @@
   - [img/]( ): Carpeta con las **imágenes** de la página
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
-1. tabla describiendo el propósito de las funciones javascript
+**1. tabla describiendo el propósito de las funciones javascript**
 
 |Funciones Javascritp                       | Propósito    |                                   
 |  :------:                                 | -----------  |                                
