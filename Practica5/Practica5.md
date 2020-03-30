@@ -43,10 +43,25 @@
 
 3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
 
+![**Concersor**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
+
+Para ver el fichero con el código ir al repositorio de la Práctica 5 ó directamente ir al fichero: [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html) .
+Si se quiere probar el script ir a: https://nitro1000.github.io/UyA/Practica5/Conversor.html
+
+
 #
 
 4. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).
 
+
+![**Calculo**](https://github.com/Nitro1000/UyA/blob/master/Practica5/calculo.jpg)
+
+Debido a la longitud del fichero adjuntamos el link directo por si se quiere  ver completo:  [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html). 
+
+Para ver resultado que da el script ir a:  https://nitro1000.github.io/UyA/Practica5/Calculo.html
+
+
 # 
+
 
 5. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y encabezados en tu página de inicio.
