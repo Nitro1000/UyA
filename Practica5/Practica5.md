@@ -67,3 +67,10 @@ Para ver resultado que da el script ir a:  https://nitro1000.github.io/UyA/Pract
 
 
 5. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y encabezados en tu página de inicio.
+
+[script_contador](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/contador.jpg)
+
+Aquí ponemos sólo el script, que está dentro del índice general del proyecto, para ver el documento completo directamente a: [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/index.html)
+Si se quiere ver la página Web ir a: https://nitro1000.github.io/UyA/Practica5/
+
+
