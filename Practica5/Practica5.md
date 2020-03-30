@@ -31,7 +31,7 @@
 
 2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado
 
-![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/MapaConceptual.jpg)
+![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.png)
 
 3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
 
