@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="/CSS/style.css" media="screen,projection" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="input-field col s12">
+            <input type="text" id="importe">
+            <select id="money">
+                <option value="" disabled selected>Opciones</option>
+                <option value="0.9"> USD -> EUR</option>
+                <option value="1.12"> EUR -> USD</option>
+                <option value="10000"> EUR -> VEF</option>
+                <option value="26.65"> EUR -> MXN</option>
+            </select>
+            <label>Importe</label>
+            <input type="button" value="calcular" onclick="conversor()" />
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <h4>Resultado:</h4>
+                </td>
+                <td>
+                    <div id="result"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="JS/materialize.min.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems);
+        });
+        function conversor() {
+            value = parseFloat(document.getElementById("importe").value);
+            money = parseFloat(document.getElementById("money").value);
+            document.getElementById("result").innerHTML = value * money;
+        }
+
+    </script>
+</body>
+
+</html>
