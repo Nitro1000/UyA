@@ -36,7 +36,7 @@
 
 **2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
 
-![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.png)
+![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
 
 
 #
