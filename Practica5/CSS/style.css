@@ -1,5 +1,5 @@
 body {
-  background-color: burlywood;
+  background-color: rgb(75, 51, 20);
   font-size: 1.05em;
   font-family: Arial, sans-serif;
   display: flex;
@@ -21,16 +21,18 @@ p {
   margin-top: 0.5em;
 }
 
-ul {
+ul{
   margin-top: 0.5em;
 }
-
+.menuLe li{
+  width: 100%;
+}
 table .enlac {
   color: green;
 }
 
 .cabecera {
-  background-image: url(/img/cabecera.jpg);
+  background-image: url(../img/cabecera.jpg);
 }
 
 div,
