@@ -1,5 +1,5 @@
 body {
-  background-color: burlywood;
+  background-color: rgba(153, 102, 52, 0.414);
   font-size: 1.05em;
   font-family: Arial, sans-serif;
   display: flex;
@@ -25,12 +25,19 @@ ul {
   margin-top: 0.5em;
 }
 
+.menuLe li {
+  width: 100%;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
 table .enlac {
   color: green;
 }
 
 .cabecera {
-  background-image: url(/img/cabecera.jpg);
+  background-image: url(../img/cabecera.jpg);
 }
 
 div,
