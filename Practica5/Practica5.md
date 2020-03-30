@@ -43,10 +43,12 @@
 
 3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
 
-![**Concersor**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol-DOM-UyA-Practica-5.jpg)
+![**Conversor**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/conversor.jpg)
 
 Para ver el fichero con el código ir al repositorio de la Práctica 5 ó directamente ir al fichero: [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Conversor.html) .
 Si se quiere probar el script ir a: https://nitro1000.github.io/UyA/Practica5/Conversor.html
+
+
 
 
 #
