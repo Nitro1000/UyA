@@ -30,7 +30,7 @@
 | document.getElementById(**id**).onclick = function(){code}      | Con este método definimos la acción que se va a realizar  ("*function()*") al hacer click la referencia devuelta al elemento por su **id**  |
 
 
-**2. Realiza un esquema del árbol DOM que genera el código HTML en el fichero enlazado**
+**2. Realiza un esquema del árbol DOM que genera el código [HTML en el fichero enlazado](https://campusvirtual.ull.es/1920/pluginfile.php/258285/mod_assign/intro/dom.html)**
 
 ![**ÁRBOl DOM**](https://github.com/Nitro1000/UyA/blob/master/Practica5/Arbol%20DOM%20UyA%20Practica%205.png)
 
