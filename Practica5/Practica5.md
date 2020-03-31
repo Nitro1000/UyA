@@ -12,7 +12,6 @@
   - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica5/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
   - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica5/CSS): Carpeta con los ficheros de **estilo**
   - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica5/img): Carpeta con las **imágenes** de la página
-  - [Practica5.md](https://github.com/Nitro1000/UyA/blob/master/Practica5/Practica5.md)
   - **Link página WEB**: https://nitro1000.github.io/UyA/Practica5/
 
 
@@ -48,7 +47,7 @@
 
 #
 
-3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).
+**3. Define una función en javascript en la que se pueda calcular el cambio entre diferentes monedas (al menos 3 diferentes).**
 
 ![**Conversor**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/conversor.jpg)
 
@@ -60,7 +59,7 @@ Si se quiere probar el script ir a: https://nitro1000.github.io/UyA/Practica5/Co
 
 #
 
-4. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).
+**4. Define una función javascript que calcule la edad de los usuarios, y su sueldo. Debes considerar un json de ejmplo con los datos, en el que se registra para cada usuario su dni, año de nacimiento, fecha de ingreso en la empresa, plus de productividad en %, plus de antigüedad bruto (0,1% por cada tres años trabajado) y el sueldo base. (El json debe estar en el propio código, inicializando una variable, explica por qué se te exige este requisito).**
 
 
 ![**Calculo**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/calculo.jpg)
@@ -73,7 +72,7 @@ Para ver resultado que da el script ir a:  https://nitro1000.github.io/UyA/Pract
 # 
 
 
-5. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y encabezados en tu página de inicio.
+**5. Crear un script que muestre un informe de la cantidad de párrafos, enlaces y encabezados en tu página de inicio.**
 
 ![**script_contador**](https://github.com/Nitro1000/UyA/blob/master/Practica5/img/contador.jpg)
 
