@@ -13,7 +13,9 @@
 
 	<!-- TODO: Add SDKs for Firebase products that you want to use
 	     https://firebase.google.com/docs/web/setup#available-libraries -->
-	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"</script>
 
 	<script>
 	  // Your web app's Firebase configuration
@@ -29,41 +31,22 @@
 	  };
 	  // Initialize Firebase
 	  firebase.initializeApp(firebaseConfig);
-	  firebase.analytics();
 		var database = firebase.database();
-		var referencia = database.ref('libros');
+		var referencia = database.ref('libro1');
 		referencia.set({
 			autor: 'Eduardo Mendoza',
-			año: '1970',
-			título: 'El laberinto de las aceitunas'
+			aÃ±o: '1970',
+			tÃ­tulo: 'El laberinto de las aceitunas'
 		});
 
 	</script>
 </head>
 
 <body>
-<header> Introducción al HTML </header>
+<header> IntroducciÃ³n al Firebase </header>
 
-    <h1> Banco de tiempo </h1>
-
-    <h2> Introducción</h2>
-    <p> Se va a detallar una aplicación para gestionar el tiempo solidario que cada usuario aporta a la comunidad
-        asociada al banco de tiempo. Los usuarios invertirán una determinada cantidad tiempo en tareas que necesite la
-        comunidad: de
-        administración (mantenimiento de la comunidad) o para
-        cubrir las necesidades de los usuarios. Dicha aplicación
-        gestionará la cantidad de tiempo que cada usuario dedica a
-        la comunidad. Los usuarios tendrán una cuenta de tiempo
-        como si fuera una cuenta bancaria, y podrán disponer de dicho tiempo como forma de pago o cobro por unos
-        servicios
-        recibidos o prestados a la comunidad.
-        <br> <br>
-        Un banco de tiempo es un sistema de intercambio de servicios o habilidades, en el que la unidad de intercambio
-        no es el dinero habitual sino una medida de tiempo, por ejemplo, la hora. Se trata de ofrecer un servicio a
-        cambio de unidades de tiempo, es decir únicamente se contabiliza el tiempo invertido en el servicio prestado
-        para acumular esa ganancia en la cuenta de la persona que lo presta y que podrá canjear después para recibir
-        otra contraprestación.
-        Los tipos de servicios se pueden encontrar en un banco de tiempo podrían ser:
+    <h1> IntroducciÃ³n al Firebase </h1>
+    <p> Script para modificar una base de datos en Firebase
     </p>
 
 </body>
