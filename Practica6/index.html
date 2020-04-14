@@ -1,22 +1,51 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" type="text/javascript"></script>
-	<title>Pr√°ctica 6 Ajax</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" type="text/javascript"></script>
+    <title>Ejemplo Ajax</title>
 </head>
+
 <body>
-	<form id="formulario">
-		<input type="number" name="ids" value="0" id="valor">
-		<input type="button" name="submit" value="Filtra id" id="boton">
-	</form>
+    <div class="container">
+        <table class="responsive-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <form id="formulario">
+                            <input type="number" name="ids" value="0" id="valor">
+                            <input type="button" name="submit" value="Filtra id" id="boton">
+                            <input type="number" name="ids" value="0" id="valorPostid">
+                            <input type="button" name="submit" value="Muestra p·gina" id="boton0">
+                        </form>
+                    </td>
+                    <td>
+                        <div>
+                            <p id="exito"></p>
+                        </div>
 
-	<div>
-		<p id="exito"></p>
-	</div>
+                        <div>
+                            <p id="fracaso"></p>
+                        </div>
+                        <div>
+                            <p id="Postid1"></p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            
 
-	<div>
-		<p id="fracaso"></p>
-	</div>
-
-	<script type="text/javascript" src="ajax.js"></script>
+            
+        </table>
+    </div>
+    <script type="text/javascript" src="js/ajax.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
