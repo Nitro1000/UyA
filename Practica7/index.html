@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Practica 7 Firebase</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyBB_-T3egqteWTj60KbagKe6RToeIekEhU",
+	    authDomain: "grupo7-uya.firebaseapp.com",
+	    databaseURL: "https://grupo7-uya.firebaseio.com",
+	    projectId: "grupo7-uya",
+	    storageBucket: "grupo7-uya.appspot.com",
+	    messagingSenderId: "76769975961",
+	    appId: "1:76769975961:web:025a22295af4f1da34a208",
+	    measurementId: "G-5N90BNX74S"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+		var database = firebase.database();
+		var referencia = database.ref('libros');
+		referencia.set({
+			autor: 'Eduardo Mendoza',
+			año: '1970',
+			título: 'El laberinto de las aceitunas'
+		});
+
+	</script>
+</head>
+
+<body>
+<header> Introducción al HTML </header>
+
+    <h1> Banco de tiempo </h1>
+
+    <h2> Introducción</h2>
+    <p> Se va a detallar una aplicación para gestionar el tiempo solidario que cada usuario aporta a la comunidad
+        asociada al banco de tiempo. Los usuarios invertirán una determinada cantidad tiempo en tareas que necesite la
+        comunidad: de
+        administración (mantenimiento de la comunidad) o para
+        cubrir las necesidades de los usuarios. Dicha aplicación
+        gestionará la cantidad de tiempo que cada usuario dedica a
+        la comunidad. Los usuarios tendrán una cuenta de tiempo
+        como si fuera una cuenta bancaria, y podrán disponer de dicho tiempo como forma de pago o cobro por unos
+        servicios
+        recibidos o prestados a la comunidad.
+        <br> <br>
+        Un banco de tiempo es un sistema de intercambio de servicios o habilidades, en el que la unidad de intercambio
+        no es el dinero habitual sino una medida de tiempo, por ejemplo, la hora. Se trata de ofrecer un servicio a
+        cambio de unidades de tiempo, es decir únicamente se contabiliza el tiempo invertido en el servicio prestado
+        para acumular esa ganancia en la cuenta de la persona que lo presta y que podrá canjear después para recibir
+        otra contraprestación.
+        Los tipos de servicios se pueden encontrar en un banco de tiempo podrían ser:
+    </p>
+
+</body>
+</html>
