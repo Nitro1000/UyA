@@ -6,7 +6,7 @@
 
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica6/index.html): Índice de la página WEB Práctica 6
-  - [js/](https://github.com/Nitro1000/UyA/tree/gh-pages/Practica6/cjs): ficheros .js incluido el **ajax.js**
+  - [js/](https://github.com/Nitro1000/UyA/tree/gh-pages/Practica6/js): ficheros .js incluido el **ajax.js**
   - [css/](https://github.com/Nitro1000/UyA/tree/gh-pages/Practica6/css): Ficheros CSS y materialize
  
 
