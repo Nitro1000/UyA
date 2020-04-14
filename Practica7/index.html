@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" type="text/javascript"></script>
+    <title>Practica 7 Firebase</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyBB_-T3egqteWTj60KbagKe6RToeIekEhU",
+	    authDomain: "grupo7-uya.firebaseapp.com",
+	    databaseURL: "https://grupo7-uya.firebaseio.com",
+	    projectId: "grupo7-uya",
+	    storageBucket: "grupo7-uya.appspot.com",
+	    messagingSenderId: "76769975961",
+	    appId: "1:76769975961:web:025a22295af4f1da34a208",
+	    measurementId: "G-5N90BNX74S"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+		var database = firebase.database();
+		var referencia = database.ref('libros');
+		referencia.set({
+			autor: 'Eduardo Mendoza',
+			año: '1970',
+			título: 'El laberinto de las aceitunas'
+		});
+
+	</script>
+</head>
+
+<body>
+
+</body>
+</html>
