@@ -48,10 +48,6 @@
 ## Seminario DCU: [Banco de tiempo](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/SeminarioDCU.md)
 ## Seminario [WEB para personas disfuncionales](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WEB%20disfuncionalidad/disfuncionalidad.md)
 
-# UyA - PE102 - SEMINARIOS
-## Grupo 7: Jefry Izquierdo, Milton Daniel Rivas Quintero, Juan Carlos Vega Beltrán
-
-
 ## Seminario Accesbilidad WCGA Operable:  
   - [WCAG_operable-Grupo7-UYA.pdf](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WGCA%20operable/WCAG_operable-Grupo%20_7.pdf): Documento PDF subido al Aula Virtual)
   - [AccesibilidadOperable.md](https://github.com/Nitro1000/UyA/edit/master/Seminario%20WGCA%20operable/SeminarioWCGA-Operable.md): Este fichero
