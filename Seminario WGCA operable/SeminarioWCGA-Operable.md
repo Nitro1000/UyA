@@ -6,4 +6,4 @@
 
 **Ficheros del directorio**
   - [WCAG_operable-Grupo7-UYA.pdf](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WGCA%20operable/WCAG_operable-Grupo%20_7.pdf): Documento PDF subido al Aula Virtual)
-  - AccesibilidadOperable.md: Este fichero
+  - [AccesibilidadOperable.md](https://github.com/Nitro1000/UyA/edit/master/Seminario%20WGCA%20operable/SeminarioWCGA-Operable.md): Este fichero
