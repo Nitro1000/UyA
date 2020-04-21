@@ -9,9 +9,9 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
  
   ![**Publicar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Publicar-anuncio.gif)
     
- **Cambio en la base de datos al modificar una anuncio (archivo gif)**
+### Cambio en la base de datos al modificar una anuncio (archivo gif)
   
-    ![**Modificar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Modificar-anuncio.gif)
+  ![**Modificar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Modificar-anuncio.gif)
     
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
