@@ -13,6 +13,7 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
     
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
+  - [Nuevo-anuncio.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/NuevoAnuncio.html): Formulario de publicación y modificación de anuncios (Modifica la base de datos de Firebase)
   - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/Conversor.html): Código con el conversor de moneda 
   - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
   - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica7/CSS): Carpeta con los ficheros de **estilo**
