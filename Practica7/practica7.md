@@ -12,6 +12,12 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 ### Cambio en la base de datos al modificar una anuncio (archivo gif)
   
   ![**Modificar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Modificar-anuncio.gif)
+  
+### Ir a la página  [subir anuncio](https://nitro1000.github.io/UyA/Practica7/NuevoAnuncio.html) modificar la base de datos o desde la página principal en la barra de navegación
+
+![**Subir anuncios**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Subir-anuncio.jpg)
+
+
     
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
