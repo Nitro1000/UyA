@@ -5,6 +5,7 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 ## Práctica 7: [Introducción Firebase](https://nitro1000.github.io/UyA/Practica7/)
 
 **Ficheros del directorio**
-  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica6/index.html): Índice de la página WEB Práctica 7
+  - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
+  - ![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/MapaConceptual.jpg)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
