@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="colum col s4">
+                <nav class="brown lighten-2" role="navigation">
+                    <div class="nav-wrapper container">
+                        <a href="#!" class="brand-logo">Menú</a>
+
+                    </div>
+                    <div class="center container">
+                        <ul class="menuLe">
+                            <li><a href='#'>Inicio</a></li>
+                            <li><a href='Calculo.html'>Cálculo de Usuarios</a></li>
+                            <li><a href='#'>Servicios</a></li>
+                            <li><a href='#'>Productos</a></li>
+                            <li><a href='#'>Contacto</a></li>
+                            <li><a href='Conversor.html'>Conversor</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="col s8">
+                <div class="row">
+                    <div class="col s12 navbar-fixed">
+                        <nav>
+                            <div class="nav-wrapper cabecera">
+                                <a href="index.html" class="brand-logo center"><img
+                                        src="https://blog.oxfamintermon.org/wp-content/uploads/2015/04/bancos-tiempo-726x470.jpg"
+                                        alt="LOGO" class="circle responsive-img" width="13%"></a>
+                                <ul class="left">
+                                    <li><a href="index.html" class="white-text">HOME</a></li>
+                                    <li><a href="NuevoAnuncio.html" class="white-text">Subir Anuncio</a></li>
+                                    <li><a href="index.html" class="white-text">Próximamente..</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" section container col s8">
+                        <h2 class="center"> Subir Anuncio</h2>
+                        <div class="row">
+                            <form id="formulario" class=" col s12">
+                                <div class="row card-panel">
+
+                                    <div class="input-field col s12">
+                                        <input type="number" placeholder="ingresa tu número de identificación"
+                                            id="numID" class="validate" required>
+                                        <label for="numID"> Identificación:</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <select name="tipo" id="DemOfer">
+                                            <option disabled selected >Seleccione</option>
+                                            <option value="Demandas">Demanda</option>
+                                            <option value="Ofertas">Oferta</option>
+                                        </select>
+                                        <label for="DemOfer">Seleccione oferta o demanda</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <select name="Categoria" id="Categoria">
+                                            <option disabled selected >Seleccione</option>
+                                            <option value="Clases">Clases</option>
+                                            <option value="Comprar">Comprar</option>
+                                        </select>
+                                        <label for="Categoria">Seleccione la Categoria</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <input type="text" placeholder="ingresa el nombre" id="nombre" class="validate"
+                                            required>
+                                        <label for="nombre"> Nombre:</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <input type="number" placeholder="ingresa el monto en timecoins" id="precio"
+                                            class="validate" required>
+                                        <label for="precio"> Precio:</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <input type="text" placeholder="ingresa el titulo" id="titulo" class="validate"
+                                            required>
+                                        <label for="titulo"> Titulo:</label>
+                                    </div>
+
+                                    <div class="input-field col s12">
+                                        <input type="email" placeholder="ingresa el email" id="email" class="validate"
+                                            required>
+                                        <label for="email"> Correo:</label>
+                                    </div>
+
+                                    <button class="btn" type="submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="colum col s4">
+                        <h3>
+                            Enlaces
+                        </h3>
+                        <ul>
+                            <li><a href=”#”>Antecedentes</a></li>
+                            <li><a href=”#”>Referencias</a></li>
+                            <li><a href=”#”>Miscelánea</a></li>
+                            <li><a href=”#”>Banco de Tiempo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Grupo 7 UyA:</h5>
+                    <p class="grey-text text-lighten-4 center-align">Jefry Izquierdo, Milton Rivas, Juan Carlos Vega</p>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Informe</h5>
+                    <ul id="informe">
+                        <li id="parrafos"></li>
+                        <li id="enlaces"></li>
+                        <li id="encabezados"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                © 2020 Copyright
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBB_-T3egqteWTj60KbagKe6RToeIekEhU",
+            authDomain: "grupo7-uya.firebaseapp.com",
+            databaseURL: "https://grupo7-uya.firebaseio.com/",
+            projectId: "grupo7-uya",
+            storageBucket: "grupo7-uya.appspot.com",
+            messagingSenderId: "76769975961",
+            appId: "1:76769975961:web:025a22295af4f1da34a208",
+            measurementId: "G-5N90BNX74S"
+        };
+        // Initialize Firebase
+
+        firebase.initializeApp(firebaseConfig);
+        var database = firebase.database();
+
+        // var referencia = database.ref('Anuncios/Ofertas/0');
+
+        var form = document.getElementById("formulario");
+
+        if (form) {
+            form.addEventListener('submit', formulario);
+        }
+        function formulario(event) {
+            var ID = document.getElementById('numID').value;
+            var nombre = document.getElementById('nombre').value;
+            var tipo = document.getElementById("DemOfer").value;
+            var categoria = document.getElementById("Categoria").value;
+            var precio = document.getElementById('precio').value;
+            var titulo = document.getElementById('titulo').value;
+            var email = document.getElementById('email').value;
+            const data = {
+                'Categoría': categoria,
+                'Nombre': nombre,
+                'email': email,
+                'Precio': precio + " timecoins",
+                'Titulo': titulo
+            };
+            enviarForm(data, tipo, ID);
+        }
+
+        function enviarForm(data, tipo, id) {
+            //Escribir un documento
+            var referencia = database.ref('Anuncios/' + tipo + '/' + id);
+            referencia.set(data);
+        };
+
+    </script>
+
+
+    <script type="text/javascript">
+        var P = parseInt(document.getElementsByTagName("p").length),
+            headers = 0,
+            A = parseInt(document.getElementsByTagName("a").length),
+            header = [
+                document.getElementsByTagName("h1").length,
+                document.getElementsByTagName("h2").length,
+                document.getElementsByTagName("h3").length,
+                document.getElementsByTagName("h4").length,
+                document.getElementsByTagName("h5").length,
+                document.getElementsByTagName("h6").length
+            ];
+        header.forEach(element => {
+            headers += parseInt(element);
+        });
+        document.getElementById("parrafos").textContent = "El total de parrafos es: " + P;
+        document.getElementById("enlaces").textContent = "El total de enlaces es: " + A;
+        document.getElementById("encabezados").textContent = "El total de encabezados es: " + headers;
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" type="text/javascript"></script>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+    <script type="text/javascript"> //inicializar select
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
+
+</body>
+
+</html>
