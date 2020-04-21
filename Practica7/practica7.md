@@ -16,8 +16,8 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
   - [Nuevo-anuncio.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/NuevoAnuncio.html): Formulario de publicación y modificación de anuncios (Modifica la base de datos de Firebase)
   - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/Conversor.html): Código con el conversor de moneda 
   - [Calculo.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/Calculo.html): Código con la función javascript que calcule la edad de los usuarios, y su sueldo.
-  - [CSS/](https://github.com/Nitro1000/UyA/tree/master/Practica7/CSS): Carpeta con los ficheros de **estilo**
-  - [publicar-anuncio2.gif](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Publicar-anuncio.gif): Archivo "·gif" que muestra el cambio de campos en la base de datos de Firebase al publicar un anuncio nuevo
-  - [Modificar-anuncio.gif](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Modificar-anuncio.gif): Archivo "·gif" que muestra el cambio de campos en la base de datos de Firebase al modificar un anuncio.
+  - [css/](https://github.com/Nitro1000/UyA/tree/master/Practica7/css): Carpeta con los ficheros de **estilo**
+  - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica7/img): Carpeta con los ficheros "gif" que muestran el cambio de campos en la base de datos de Firebase.
+  
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
