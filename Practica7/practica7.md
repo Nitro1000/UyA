@@ -6,6 +6,7 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
-  - ![**Publicar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/publicar-anuncio2.gif)
+  - Cambio en la base de datos al subir un anuncio nuevo
+    ![**Publicar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/publicar-anuncio2.gif)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
