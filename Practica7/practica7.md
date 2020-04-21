@@ -6,6 +6,6 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
-  - ![**MAPA**](https://github.com/Nitro1000/UyA/blob/master/SeminarioDCU/MapaConceptual.jpg)
+  - ![**Publicar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/publicar-anuncio2.gif)
 
 **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
