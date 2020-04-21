@@ -5,15 +5,15 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 ## Práctica 7: [Introducción Firebase](https://nitro1000.github.io/UyA/Practica7/)
 
 
-### Cambio en la base de datos al subir un anuncio nuevo (archivo gif)
+**Cambio en la base de datos al subir un anuncio nuevo (archivo gif)**
  
   ![**Publicar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Publicar-anuncio.gif)
     
-### Cambio en la base de datos al modificar una anuncio (archivo gif)
+**Cambio en la base de datos al modificar una anuncio (archivo gif)**
   
   ![**Modificar anuncio**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Modificar-anuncio.gif)
   
-### Ir a la página  [subir anuncio](https://nitro1000.github.io/UyA/Practica7/NuevoAnuncio.html) modificar la base de datos o desde la página principal en la barra de navegación
+**Ir a la página  [subir anuncio](https://nitro1000.github.io/UyA/Practica7/NuevoAnuncio.html) modificar la base de datos o desde la página principal en la barra de navegación**
 
 ![**Subir anuncios**](https://github.com/Nitro1000/UyA/blob/master/Practica7/img/Subir-anuncio.jpg)
 
