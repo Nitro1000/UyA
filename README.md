@@ -51,10 +51,10 @@
  - **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
 
 
-## Práctica 8: [Evaluación automática de la accesibilidad](https://nitro1000.github.io/UyA/Practica7/)
+## Práctica 8: [Evaluación automática de la accesibilidad](https://github.com/Nitro1000/UyA/blob/master/Practica8/practica8.md)
 
   - [UyA Practica 8 Grupo 7.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica8/UyA%20Practica%208%20Grupo%207.pdf): Archivo con la Práctica 8 subida al campus virtual.
-  - [pracita8.md](https://github.com/Nitro1000/UyA/blob/master/Practica8/practica8.md): Este fichero
+  - [practia8.md](https://github.com/Nitro1000/UyA/blob/master/Practica8/practica8.md): Este fichero
 
 
 # SEMINARIOS
