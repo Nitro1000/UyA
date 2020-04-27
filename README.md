@@ -42,7 +42,6 @@
 
 ## Práctica 7: [Introducción Firebase](https://nitro1000.github.io/UyA/Practica7/)
 
-**Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/index.html): Índice de la página WEB Práctica 7
   - [Nuevo-anuncio.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/NuevoAnuncio.html): Formulario de publicación y modificación de anuncios (Modifica la base de datos de Firebase)
   - [Conversor.html](https://github.com/Nitro1000/UyA/blob/master/Practica7/Conversor.html): Código con el conversor de moneda 
@@ -51,6 +50,11 @@
   - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica7/img): Carpeta con los ficheros "gif" que muestran el cambio de campos en la base de datos de Firebase.
  - **Link página WEB**: https://nitro1000.github.io/UyA/Practica7/
 
+
+## Práctica 8: [Evaluación automática de la accesibilidad](https://nitro1000.github.io/UyA/Practica7/)
+
+  - [UyA Practica 8 Grupo 7.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica8/UyA%20Practica%208%20Grupo%207.pdf): Archivo con la Práctica 8 subida al campus virtual.
+  - [pracita8.md](https://github.com/Nitro1000/UyA/blob/master/Practica8/practica8.md): Este fichero
 
 
 # SEMINARIOS
