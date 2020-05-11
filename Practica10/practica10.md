@@ -6,7 +6,7 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
 
 **Ficheros del directorio**
 
-  - [UyA _Practica10_Grupo7_WidgetsAccesibles.pdf] Archivo con la Práctica 10 subida al campus virtual.
+  - [UyA_Practica10_Grupo7_WidgetsAccesibles.pdf](https://github.com/Nitro1000/UyA/blob/master/Practica10/UyA%20_Practica10_Grupo7_WidgetsAccesibles.pdf) Archivo con la Práctica 10 subida al campus virtual.
   - [WidgetsAccesibles.html](https://github.com/Nitro1000/UyA/blob/master/Practica10/WidgetsAccesibles.html): Índice de la página WEB Práctica 10
   - [js/](https://github.com/Nitro1000/UyA/tree/master/Practica10/js): ficheros .js incluido el **materialize.js**
   - [css/](https://github.com/Nitro1000/UyA/tree/master/Practica10/css): Carpeta con los ficheros de **estilo**
