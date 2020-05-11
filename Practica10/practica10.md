@@ -12,4 +12,4 @@ UyA - PE102 - PRÁCTICAS y SEMINARIOS
   - [css/](https://github.com/Nitro1000/UyA/tree/master/Practica10/css): Carpeta con los ficheros de **estilo**
   - [img/](https://github.com/Nitro1000/UyA/tree/master/Practica10/img): Carpeta con las **imágenes** de la página
   - [practica10.md](https://github.com/Nitro1000/UyA/blob/master/Practica10/practica10.md): Este fichero
-  - [**Link Página WEB**](https://github.com/Nitro1000/UyA/tree/master/Practica10/js): https://github.com/Nitro1000/UyA/tree/master/Practica10/js
+  - [**Link Página WEB**](https://github.com/Nitro1000/UyA/blob/master/Practica10/WidgetsAccesibles.html): https://github.com/Nitro1000/UyA/blob/master/Practica10/WidgetsAccesibles.html
