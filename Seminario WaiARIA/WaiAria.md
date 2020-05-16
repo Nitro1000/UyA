@@ -11,10 +11,14 @@
 
 ![Practica1UyA](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica1UyA.gif)
 
-![Practica1UyAWaiAria](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica7UyAWaiAria.gif)
+
+![Practica1UyAWaiAria](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica1UyAWaiAria.gif)
 
 
-![Practica1UyA](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica1UyA.gif)
+![Practica7UyAWaiAria](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica7UyAWaiAria.gif)
 
 
-![Practica1UyA](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica1UyA.gif)
+
+![Practica7UyA](https://github.com/Nitro1000/UyA/blob/master/Seminario%20WaiARIA/GIFs/Practica7UyA.gif)
+
+
