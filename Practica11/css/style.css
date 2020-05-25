@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(153, 102, 52, 0.414);
+  font-size: 1.05em;
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: red;
+}
+
+
+p {
+  margin-top: 0.5em;
+}
+
+ul {
+  margin-top: 0.5em;
+}
+
+.menuLe li {
+  width: 100%;
+  font-style: oblique;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+table .enlac {
+  color: green;
+}
+
+.cabecera {
+  background-image: url(../img/cabecera.jpg);
+}
+
+div,
+.fila {
+  height: 20vh;
+}
+
+div,
+.colum {
+  height: auto;
+}
+
+footer,
+.pie {
+  height: 20;
+}
+
+main {
+  flex: 1 0 auto;
+}
