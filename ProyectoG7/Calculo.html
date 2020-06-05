@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULO DE USUARIO</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+</head>
+
+<body class="blue-grey lighten-3">
+    <div>
+        <table id="table" class="centered table-responsive">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>DNI</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Fecha de ingreso</th>
+                    <th>Plus de Productividad %</th>
+                    <th>Plus de Antiguedad</th>
+                    <th>Sueldo Base</th>
+                    <th>Edad</th>
+                    <th>Sueldo neto</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script>
+        var app2 = {
+            users: [
+                {
+                    name: "Luisito",
+                    birthday: "1983-07-06",
+                    dni: "34324232f",
+                    iniDay: "2010-07-06",
+                    productivityPlus: 0.5,
+                    plusAnt: 0,
+                    baseSalary: 1000
+                },
+                {
+                    name: "Antonio",
+                    birthday: "1999-05-02",
+                    dni: "34564232h",
+                    iniDay: "2018-07-06",
+                    productivityPlus: 0.4,
+                    plusAnt: 0,
+                    baseSalary: 2000
+                }
+            ],
+            showUsers: function () {
+                app2.users.forEach(user => {
+                    user.age = app2.calcAge(user.birthday);
+                    user.plusAnt = parseFloat(((new Date().getFullYear() - user.iniDay.split("-")[0]) / 3) * 0.1);
+                    user.salary = app2.calcSalary(user);
+
+
+                    tableRef = document.getElementById("table").getElementsByTagName('tbody')[0];
+
+                    var newRow = tableRef.insertRow(tableRef.rows.length);
+                    var name = newRow.insertCell(0);
+                    name.appendChild(document.createTextNode(user.name));
+                    var name = newRow.insertCell(1);
+                    name.appendChild(document.createTextNode(user.dni));
+                    var name = newRow.insertCell(2);
+                    name.appendChild(document.createTextNode(user.birthday));
+                    var name = newRow.insertCell(3);
+                    name.appendChild(document.createTextNode(user.iniDay));
+                    var name = newRow.insertCell(4);
+                    name.appendChild(document.createTextNode(user.productivityPlus));
+                    var name = newRow.insertCell(5);
+                    name.appendChild(document.createTextNode(user.plusAnt.toFixed(3)));
+                    var name = newRow.insertCell(6);
+                    name.appendChild(document.createTextNode(user.baseSalary));
+                    var name = newRow.insertCell(7);
+                    name.appendChild(document.createTextNode(user.age));
+                    var name = newRow.insertCell(8);
+                    name.appendChild(document.createTextNode(user.salary.toFixed(3)));
+
+                });
+            },
+            calcAge: (birthday) => {
+                birthday = birthday.split("-");
+                today = new Date();
+                year = today.getFullYear();
+                month = today.getMonth();
+                day = today.getDay();
+                age = Math.abs(year - parseInt(birthday[0]));
+                if (month < parseInt(birthday[1] - 1))
+                    age -= 1;
+                else if (day < parseInt(birthday[1] - 1))
+                    age -= 1;
+                return age;
+            },
+            calcSalary: function ({ baseSalary, productivityPlus, iniDay, plusAnt }) {
+                salary = '';
+                console.log(baseSalary, productivityPlus, iniDay, plusAnt.toFixed(3));
+                salary = baseSalary * productivityPlus * plusAnt + baseSalary;
+                return salary;
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", function () {
+            app2.showUsers();
+        });
+    </script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
