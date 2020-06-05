@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html>
+<html lang="es">
 
 <head>
+  <meta charset="UTF-8">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="CSS/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="/CSS/style.css" media="screen,projection" />
-
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
   <main>
-    <div class="row">
-      <div class="colum col s4">
-        <nav class="brown lighten-2" role="navigation">
+    <div class="row ">
+      <div class="colum col l2 s12">
+        <div class="center hide-on-large-only">
+          <!-- Dropdown Trigger -->
+          <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Menú</a>
+
+          <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Calculo.html">Cálculo de Usuarios</a></li>
+            <li><a href="Conversor.html">Conversor</a></li>
+            <li><a href="NuevoAnuncio.html">Subir Anuncio</a></li>
+          </ul>
+        </div>
+        <nav class="brown lighten-2 hide-on-med-and-down" role="navigation">
           <div class="nav-wrapper container">
             <a href="#!" class="brand-logo">Menú</a>
-            <ul class="right hide-on-med-and-down">
-              <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Perfil<i
-                    class="material-icons right">arrow_drop_down</i></a></li>
-            </ul>
           </div>
-          <div class="center container">
-            <ul>
-              <li><a href=”#”>Inicio</a></li> <br>
-              <li><a href=”#”>Información</a></li> <br>
-              <li><a href=”#”>Servicios</a></li> <br>
-              <li><a href=”#”>Productos</a></li> <br>
-              <li><a href=”#”>Contacto</a></li> <br>
-            </ul>
-          </div>
+          <div class="center container ">
+            <ul class="menuLe">
+              <li><a href="index.html" class="white-text">Inicio</a></li>
+              <li><a href='NuevoAnuncio.html'>Subir Anuncio</a></li>
+              <li><a href='#'>Productos</a></li>
+              <li><a href='Conversor.html'>Conversor</a></li>
+              <li><a href='#'>Referencias</a></li>
+              <li><a href='#'>Contacto</a></li>
 
+            </ul>
+          </div>
         </nav>
       </div>
-      <div class="col s8">
-        <div class="row">
-          <div class="col s12 navbar-fixed">
+      <div class="col l10 s12 ">
+        <div class="row hide-on-med-and-down">
+          <div class="col s12 navbar-fixed ">
             <nav>
-              <div class="nav-wrapper cabecera">
+              <div class="nav-wrapper ">
                 <a href="index.html" class="brand-logo center"><img
                     src="https://blog.oxfamintermon.org/wp-content/uploads/2015/04/bancos-tiempo-726x470.jpg" alt="LOGO"
                     class="circle responsive-img" width="13%"></a>
                 <ul class="left">
                   <li><a href="index.html" class="white-text">HOME</a></li>
-                  <li><a href="index.html" class="white-text">Proximamente..</a></li>
+                  <li><a href="NuevoAnuncio.html" class="white-text">Subir Anuncio</a></li>
+                   <li><a href="Usabilidad.html" class="white-text">Usabilidad</a></li>
+                   <li><a href="Accesibilidad.html" class="white-text">Accesibilidad</a></li>
                 </ul>
               </div>
             </nav>
           </div>
         </div>
         <div class="row">
-          <div class="colum col s8">
+          <div class="colum col s12">
             <h2 class="center"> Introducción</h2>
             <p class=""> Se va a detallar una aplicación para gestionar el tiempo solidario que cada usuario aporta a la
               comunidad
@@ -114,29 +126,60 @@
             <img width="100%" src="https://raw.githubusercontent.com/Nitro1000/UyA/master/Practica2/MapaConceptual.jpg"
               alt="MapaConceptual" class="responsive-image">
           </div>
-          <div class="colum col s4">
-            <h3>
-              Enlaces
-            </h3>
-            <ul>
-              <li><a href=”#”>Antecedentes</a></li>
-              <li><a href=”#”>Referencias</a></li>
-              <li><a href=”#”>Miscelánea</a></li>
-              <li><a href=”#”>Banco de Tiempo</a></li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </div>
   </main>
-  <footer class="brown lighten-4">
-    <div class="row">
-      <div class="col s12 block valign-wrapper">
-        <div class="col s12 center">
-          <p>Grupo 7 UyA: Jefry Izquierdo, Milton Rivas, Juan Carlos Vega</p>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Grupo 7 UyA:</h5>
+          <p class="grey-text text-lighten-4 center-align">Jefry Izquierdo, Milton Rivas, Juan Carlos Vega</p>
+        </div>
+        <div class="col l6 s12">
+          <h5 class="white-text">Informe</h5>
+          <ul id="informe">
+            <li id="parrafos"></li>
+            <li id="enlaces"></li>
+            <li id="encabezados"></li>
+          </ul>
         </div>
       </div>
     </div>
+    <div class="copyright">
+      <div class="container">
+        © 2020 Copyright
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems);
+    });
+
+    var P = parseInt(document.getElementsByTagName("p").length),
+      headers = 0,
+      A = parseInt(document.getElementsByTagName("a").length),
+      header = [
+        document.getElementsByTagName("h1").length,
+        document.getElementsByTagName("h2").length,
+        document.getElementsByTagName("h3").length,
+        document.getElementsByTagName("h4").length,
+        document.getElementsByTagName("h5").length,
+        document.getElementsByTagName("h6").length
+      ];
+    header.forEach(element => {
+      headers += parseInt(element);
+    });
+    document.getElementById("parrafos").textContent = "El total de parrafos es: " + P;
+    document.getElementById("enlaces").textContent = "El total de enlaces es: " + A;
+    document.getElementById("encabezados").textContent = "El total de encabezados es: " + headers;
+  </script>
 </body>
 
 </html>
