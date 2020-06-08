@@ -1,60 +1,31 @@
-body {
-  background-color: rgba(153, 102, 52, 0.414);
-  font-size: 1.05em;
-  font-family: Arial, sans-serif;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
 }
 
-a {
-  text-decoration: none;
-  transition: all 200ms ease;
+.icon-block .material-icons {
+  font-size: inherit;
 }
 
-a:hover {
-  color: red;
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  /* margin: auto; */
+  display: block;
+  /* border-radius: 50px; */
 }
 
-
-p {
-  margin-top: 0.5em;
-}
-
-ul {
-  margin-top: 0.5em;
-}
-
-.menuLe li {
-  width: 100%;
-  font-style: oblique;
-  font-family: fantasy;
-  font-weight: bolder;
-}
-
-table .enlac {
-  color: green;
-}
-
-.cabecera {
-  background-image: url(../img/cabecera.jpg);
-}
-
-div,
-.fila {
-  height: 20vh;
-}
-
-div,
-.colum {
-  height: auto;
-}
-
-footer,
-.pie {
-  height: 20;
-}
-
-main {
-  flex: 1 0 auto;
+nav .sidenav-trigger {
+  position: relative;
+  z-index: 1;
+  height: 50px;
+  margin: 0 1px;
 }
