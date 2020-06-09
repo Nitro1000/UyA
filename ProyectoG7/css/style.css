@@ -30,6 +30,10 @@ nav .sidenav-trigger {
   margin: 0 1px;
 }
 
+.encabezado{
+  background-color: #34e7f4;
+}
+
 .pie{
-  background-color: aquamarine;
+  background-color: #68bdc4;
 }
