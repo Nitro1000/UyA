@@ -29,8 +29,8 @@
                     </div>
                     <div class="col l7 hide-on-med-and-down">
                         <ul class="hide-on-med-and-down">
-                            <li><a href="NuevoAnuncio.html" class="white-text">Subir Anuncio</a></li>
                             <li><a href="TablónAnuncios.html" class="white-text">Tablón de Anuncios</a></li>
+                            <li><a href="Login.html" class="white-text">Iniciar Sesión</a></li>
                         </ul>
                     </div>
                     <div class="col s5 l3 right" role="form">
@@ -45,61 +45,39 @@
 
 
                     <ul id="nav-mobile" class="sidenav" role="list">
-                        <li><a href="NuevoAnuncio.html" class="black-text">Subir Anuncio</a></li>
-                        <li><a href="TablónAnuncios.html" class="white-text">Tablón de Anuncios</a></li>
+                        <li><a href="TablónAnuncios.html" class="black-text">Tablón de Anuncios</a></li>
+                        <li><a href="Login.html" class="black-text">Iniciar Sesión</a></li>
                     </ul>
                     <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons">menu</i></a>
                 </div>
+
             </nav>
+
         </div>
     </header>
     <main>
-        <div class="section white">
-            <div class="section no-pad-bot" id="index-banner">
-                <div class="container">
-                    <br><br>
-                    <h1 class="header center blue-grey-text">Banco de Tiempo</h1>
+        <div class="row login">
+            <div class="col s12 l4 offset-l4">
+                <div class="card">
+                    <div class="card-action blue darken-4 white-text ">
+                        <h2>Iniciar Sesión</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="form-field">
+                            <label for="username">Nombre de Usuario</label>
+                            <input type="text" id="username">
+                        </div><br>
 
-                    <br><br>
+                        <div class="form-field">
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password">
+                        </div><br>
+
+                        <div class="form-field center-align">
+                            <button class="btn-large blue darken-4">Iniciar Sesión</button>
+                        </div><br>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="parallax-container">
-            <div class="parallax"><img class="responsive-img" src="img/BancoTiempo.png"></div>
-        </div>
-        <div class="row container">
-            <h2>¿Qué es?</h2>
-            <div class="col l12 m12 s12">
-                <p>
-                    Un banco de tiempo es un sistema de intercambio de servicios o habilidades,
-                    en el que la unidad de intercambio no es el dinero habitual sino una medida de tiempo,
-                    por ejemplo, la hora. Se trata de ofrecer un servicio a cambio de unidades de tiempo,
-                    es decir únicamente se contabiliza el tiempo invertido en el servicio prestado
-                    para acumular esa ganancia en la cuenta de la persona que lo presta y
-                    que podrá canjear después para recibir otra contraprestación.
-                    <br><br>
-                </p>
-
-                <ul class="collection with-header">
-                    <li class="collection-header">
-                        <h6>Los tipos de servicios se pueden encontrar en un banco de tiempo podrían ser:</h6>
-                    </li>
-                    <li class="collection-item">Atención y cuidado de personas</li>
-                    <li class="collection-item">Cuidados personales</li>
-                    <li class="collection-item">Tareas del hogar</li>
-                    <li class="collection-item">Formación</li>
-                    <li class="collection-item">Reparaciones</li>
-                    <li class="collection-item">Orientación y asesoramiento</li>
-                </ul>
-                <p>
-                    Presentamos una aplicación que gestiona la comunidad Banco de Tiempo,
-                    que funciona como un banco pero la divisa será el tiempo.
-                    Cuanto más horas dedique un usuario de la comunidad a ayudar al resto de usuarios, más tiempo tendrá
-                    en su cuenta.
-                    Si por el contrario el usuario necesita tiempo de la comunidad,
-                    se le restará el tiempo solicitado de su cuenta.
-                    <br><br>
-                </p>
             </div>
         </div>
     </main>
@@ -124,16 +102,14 @@
     <script>
         (function ($) {
             $(function () {
-
                 $('.sidenav').sidenav();
+            });
+        })(jQuery);
 
-            }); // end of document ready
-        })(jQuery); // end of jQuery name space
         $(document).ready(function () {
             $('.parallax').parallax();
         });
     </script>
-    <!-- <script src="js/init.js"></script> -->
 </body>
 
 </html>

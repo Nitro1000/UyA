@@ -30,10 +30,33 @@ nav .sidenav-trigger {
   margin: 0 1px;
 }
 
-.encabezado{
+.encabezado {
   background-color: #3e64da;
 }
 
-.pie{
+.pie {
   background-color: #68bdc4;
+}
+
+
+.login {
+  margin-top: 100px;
+}
+
+.login .card {
+  background: rgba(0, 0, 0, .6);
+}
+
+.login label {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.login input {
+  font-size: 20px !important;
+  color: #ffffff;
+}
+
+.login button:hover {
+  padding: 0px 40px;
 }
