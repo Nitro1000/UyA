@@ -1,0 +1,62 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  /* margin: auto; */
+  display: block;
+  /* border-radius: 50px; */
+}
+
+nav .sidenav-trigger {
+  position: relative;
+  z-index: 1;
+  height: 50px;
+  margin: 0 1px;
+}
+
+.encabezado {
+  background-color: #3e64da;
+}
+
+.pie {
+  background-color: #68bdc4;
+}
+
+
+.login {
+  margin-top: 100px;
+}
+
+.login .card {
+  background: rgba(0, 0, 0, .6);
+}
+
+.login label {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.login input {
+  font-size: 20px !important;
+  color: #ffffff;
+}
+
+.login button:hover {
+  padding: 0px 40px;
+}

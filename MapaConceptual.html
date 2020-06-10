@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel=”shortcut icon” type=”image/ico” href=”img/logo.ico” /> -->
+    <title>MAPA CONCEPTUAL</title>
+    <meta content="Grupo 7 UyA" name="Milton Rivas, Juan Carlos Vega" />
+    <meta content="Descripción" name="Banco de Tiempo" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <nav class="encabezado" role="navigation">
+                <div class="nav-wrapper" role="banner">
+                    <div class="col l2 ">
+                        <a id="logo-container" class="brand-logo" href="index.html">
+                            <img class=" circle responsive-img logo" role="img"
+                                src="https://blog.oxfamintermon.org/wp-content/uploads/2015/04/bancos-tiempo-726x470.jpg"
+                                alt="logo de la página">
+                        </a>
+                    </div>
+                    <div class="col l7 hide-on-med-and-down">
+                        <ul class="hide-on-med-and-down">
+                            <li><a href="NuevoAnuncio.html" class="white-text">Subir Anuncio</a></li>
+                            <li><a href="TablónAnuncios.html" class="white-text">Tablón de Anuncios</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s5 l3 right" role="form">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <ul id="nav-mobile" class="sidenav" role="list">
+                        <li><a href="NuevoAnuncio.html" class="black-text">Subir Anuncio</a></li>
+                        <li><a href="TablónAnuncios.html" class="white-text">Tablón de Anuncios</a></li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons">menu</i></a>
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+    <main>
+
+        <div class="section white">
+            <div class="section no-pad-bot" id="index-banner">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center blue-grey-text">Banco de Tiempo</h1>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img class="responsive-img" src="img/mapa-conceptual.png"></div>
+        </div>
+        <div class="row container">
+            <h2>MAPA CONCEPTUAL</h2>
+            <div class="col l12 m12 s12">
+                <p>
+                    El funcionamiento del banco de tiempo se basa en una lógica muy simple y ampliamente en la mayoría
+                    de negocios e-commerce. Habrá una Pasarela de pago interna y se emulará una pasarela de pago típica
+                    para gestionar la contratación de servicios y “pagar” con cargo a la cuenta correspondiente del
+                    Banco de tiempo. El usuario se registra, se le asigna una cuenta y deberá obtener saldo (tiempo)
+                    mediante prestación de servicios para poder contratar servicios de la comunidad.
+                    <br>
+                </p>
+            </div>
+            <div class="col l12 m12 s12">
+                <img width="100%"
+                    src="https://raw.githubusercontent.com/Nitro1000/UyA/master/Practica2/MapaConceptual.jpg"
+                    alt="Mapa Conceptual" class="responsive-image">
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer pie" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Grupo 7 UyA:</h5>
+                    <p class="black-text center-align">Milton Rivas, Juan Carlos Vega</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container black-text">
+                © 2020 Copyright
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+
+                $('.sidenav').sidenav();
+
+            }); // end of document ready
+        })(jQuery); // end of jQuery name space
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+    <!-- <script src="js/init.js"></script> -->
+</body>
+
+</html>

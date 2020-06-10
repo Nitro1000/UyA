@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel=”shortcut icon” type=”image/ico” href=”img/logo.ico” /> -->
+    <title>Banco de Tiempo</title>
+    <meta content="Grupo 7 UyA" name="Milton Rivas, Juan Carlos Vega" />
+    <meta content="Descripción" name="Banco de Tiempo" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <nav class="encabezado" role="navigation">
+                <div class="nav-wrapper" role="banner">
+                    <div class="col l2 ">
+                        <a id="logo-container" class="brand-logo" href="index.html">
+                            <img class=" circle responsive-img logo" role="img"
+                                src="https://blog.oxfamintermon.org/wp-content/uploads/2015/04/bancos-tiempo-726x470.jpg"
+                                alt="logo de la página">
+                        </a>
+                    </div>
+                    <div class="col l7 hide-on-med-and-down">
+                        <ul class="hide-on-med-and-down">
+                            <li><a href="TablónAnuncios.html" class="white-text">Tablón de Anuncios</a></li>
+                            <li><a href="Login.html" class="white-text">Iniciar Sesión</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s5 l3 right" role="form">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <ul id="nav-mobile" class="sidenav" role="list">
+                        <li><a href="TablónAnuncios.html" class="black-text">Tablón de Anuncios</a></li>
+                        <li><a href="Login.html" class="black-text">Iniciar Sesión</a></li>
+                    </ul>
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons">menu</i></a>
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="row login">
+            <div class="col s12 l4 offset-l4">
+                <div class="card">
+                    <div class="card-action blue darken-4 white-text ">
+                        <h2>Iniciar Sesión</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="form-field">
+                            <label for="username">Nombre de Usuario</label>
+                            <input type="text" id="username">
+                        </div><br>
+
+                        <div class="form-field">
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password">
+                        </div><br>
+
+                        <div class="form-field center-align">
+                            <button class="btn-large blue darken-4">Iniciar Sesión</button>
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer pie" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Grupo 7 UyA:</h5>
+                    <p class="black-text center-align">Milton Rivas, Juan Carlos Vega</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container black-text">
+                © 2020 Copyright
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.sidenav').sidenav();
+            });
+        })(jQuery);
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+</body>
+
+</html>
