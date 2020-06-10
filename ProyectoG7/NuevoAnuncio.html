@@ -58,68 +58,79 @@
     <main>
         <div class="row login">
             <div class="col s12 l4 offset-l4">
-                <form id="formulario">
-                    <div class="card-action blue darken-4 white-text ">
-                        <h2>Subir Anuncio</h2>
-                    </div>
-                    <div class="card-content">
-                        <div class="input-field">
-                            <label for="numID"> Identificación:</label>
-                            <input type="number" placeholder="ingresa tu número de identificación" id="numID"
-                                class="validate" required>
+                <div class="card">
+                    <form id="formulario">
+                        <div class="card-action blue darken-4 white-text ">
+                            <h2>Subir Anuncio</h2>
+                        </div>
+                        <div class="card-content">
+                            <div class="input-field">
 
-                        </div><br>
+                                <input type="number" placeholder="ingresa tu número de identificación" id="numID"
+                                    class="validate" required>
+                                <label for="numID"> Identificación:</label>
+                            </div><br>
 
-                        <div class="input-field">
-                            <label for="DemOfer">Seleccione oferta o demanda</label>
-                            <select name="tipo" id="DemOfer">
-                                <option disabled selected>Seleccione</option>
-                                <option value="Demandas">Demanda</option>
-                                <option value="Ofertas">Oferta</option>
-                            </select>
+                            <div class="input-field">
 
-                        </div><br>
+                                <select name="tipo" id="DemOfer">
+                                    <option disabled selected>Seleccione</option>
+                                    <option value="Demandas">Demanda</option>
+                                    <option value="Ofertas">Oferta</option>
+                                </select>
+                                <label for="DemOfer">Seleccione oferta o demanda</label>
+                            </div><br>
 
-                        <div class="input-field">
-                            <label for="Categoria">Seleccione la Categoria</label>
-                            <select name="Categoria" id="Categoria">
-                                <option disabled selected>Seleccione</option>
-                                <option value="Clases">Clases</option>
-                                <option value="Comprar">Comprar</option>
-                            </select>
-                        </div><br>
+                            <div class="input-field">
 
-                        <div class="input-field">
-                            <label for="nombre"> Nombre:</label>
-                            <input type="text" placeholder="ingresa el nombre" id="nombre" class="validate" required>
+                                <select name="Categoria" id="Categoria">
+                                    <option disabled selected>Seleccione</option>
+                                    <option value="Clases">Clases</option>
+                                    <option value="Comprar">Comprar</option>
+                                </select>
+                                <label for="Categoria">Seleccione la Categoria</label>
+                            </div><br>
 
-                        </div><br>
+                            <div class="input-field">
 
-                        <div class="input-field">
-                            <label for="precio"> Precio:</label>
-                            <input type="number" placeholder="ingresa el monto en timecoins" id="precio"
-                                class="validate" required>
-                        </div><br>
+                                <input type="text" placeholder="ingresa el nombre" id="nombre" class="validate"
+                                    required>
+                                <label for="nombre"> Nombre:</label>
 
-                        <div class="input-field">
-                            <label for="titulo"> Titulo:</label>
-                            <input type="text" placeholder="ingresa el titulo" id="titulo" class="validate" required>
+                            </div><br>
 
-                        </div><br>
+                            <div class="input-field">
 
-                        <div class="input-field">
-                            <label for="email"> Correo:</label>
-                            <input type="email" placeholder="ingresa el email" id="email" class="validate" required>
+                                <input type="number" placeholder="ingresa el monto en timecoins" id="precio"
+                                    class="validate" required>
+                                <label for="precio"> Precio:</label>
+                            </div><br>
 
-                        </div><br>
+                            <div class="input-field">
 
-                        
-                            <button class="btn-large blue darken-4" type="submit">Enviar</button>                            
-                        
-                    </div>
-                </form>
+                                <input type="text" placeholder="ingresa el titulo" id="titulo" class="validate"
+                                    required>
+                                <label for="titulo"> Titulo:</label>
+
+                            </div><br>
+
+                            <div class="input-field">
+
+                                <input type="email" placeholder="ingresa el email" id="email" class="validate" required>
+                                <label for="email"> Correo:</label>
+
+                            </div><br>
+
+
+                            <div class="form-field center-align">
+                                <button class="btn-large blue darken-4" type="submit">Enviar</button>
+                            </div><br>
+
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>  
+        </div>
     </main>
     <footer class="page-footer pie" role="contentinfo">
         <div class="container">
@@ -136,7 +147,22 @@
             </div>
         </div>
     </footer>
- <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        (function ($) {
+            $(function () {
+                $('.sidenav').sidenav();
+            });
+        })(jQuery);
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+
+    </script>
 
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
@@ -189,7 +215,7 @@
         };
 
     </script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js" type="text/javascript"></script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
