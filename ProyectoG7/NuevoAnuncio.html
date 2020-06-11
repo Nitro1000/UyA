@@ -44,9 +44,9 @@
                     </div>
 
 
-                    <ul id="nav-mobile" class="sidenav" role="list">
-                        <li><a href="TablónAnuncios.html" class="black-text">Tablón de Anuncios</a></li>
-                        <li><a href="Login.html" class="black-text">Iniciar Sesión</a></li>
+                    <ul id="nav-mobile" class="sidenav" role="list" tabindex="-1" aria-hidden="true">
+                        <li tabindex="-1" aria-hidden="true"><a href="TablónAnuncios.html" class="black-text">Tablón de Anuncios</a></li>
+                        <li tabindex="-1" aria-hidden="true"><a href="Login.html" class="black-text">Iniciar Sesión</a></li>
                     </ul>
                     <a href="#" data-target="nav-mobile" class="sidenav-trigger "><i class="material-icons">menu</i></a>
                 </div>
@@ -61,17 +61,17 @@
                 <div class="card">
                     <form id="formulario">
                         <div class="card-action blue darken-4 white-text ">
-                            <h2>Subir Anuncio</h2>
+                            <h2 tabindex="0">Subir Anuncio</h2>
                         </div>
                         <div class="card-content">
-                            <div class="input-field">
+                            <div class="input-field" tabindex="0">
 
-                                <input type="number" placeholder="ingresa tu número de identificación" id="numID"
+                                <input type="number" placeholder="Ingresa tu número de identificación" id="numID"
                                     class="validate" required>
                                 <label for="numID"> Identificación:</label>
                             </div><br>
 
-                            <div class="input-field">
+                            <div class="input-field" tabindex="0">
 
                                 <select name="tipo" id="DemOfer">
                                     <option disabled selected>Seleccione</option>
@@ -81,42 +81,42 @@
                                 <label for="DemOfer">Seleccione oferta o demanda</label>
                             </div><br>
 
-                            <div class="input-field">
+                            <div class="input-field" tabindex="0">
 
                                 <select name="Categoria" id="Categoria">
                                     <option disabled selected>Seleccione</option>
                                     <option value="Clases">Clases</option>
                                     <option value="Comprar">Comprar</option>
                                 </select>
-                                <label for="Categoria">Seleccione la Categoria</label>
+                                <label for="Categoria">Seleccione la Categoría</label>
                             </div><br>
 
                             <div class="input-field">
 
-                                <input type="text" placeholder="ingresa el nombre" id="nombre" class="validate"
+                                <input type="text" placeholder="Ingresa el nombre" id="nombre" class="validate"
                                     required>
                                 <label for="nombre"> Nombre:</label>
 
                             </div><br>
 
-                            <div class="input-field">
+                            <div class="input-field" tabindex="0">
 
-                                <input type="number" placeholder="ingresa el monto en timecoins" id="precio"
+                                <input type="number" placeholder="Ingresa el monto en timecoins" id="precio"
                                     class="validate" required>
                                 <label for="precio"> Precio:</label>
                             </div><br>
 
                             <div class="input-field">
 
-                                <input type="text" placeholder="ingresa el titulo" id="titulo" class="validate"
+                                <input type="text" placeholder="Ingresa el título" id="titulo" class="validate"
                                     required>
-                                <label for="titulo"> Titulo:</label>
+                                <label for="titulo"> Título:</label>
 
                             </div><br>
 
-                            <div class="input-field">
+                            <div class="input-field" tabindex="0">
 
-                                <input type="email" placeholder="ingresa el email" id="email" class="validate" required>
+                                <input type="email" placeholder="Ingresa el email" id="email" class="validate" required>
                                 <label for="email"> Correo:</label>
 
                             </div><br>
@@ -132,7 +132,7 @@
             </div>
         </div>
     </main>
-    <footer class="page-footer pie" role="contentinfo">
+    <footer class="page-footer pie" role="contentinfo" tabindex="0">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
