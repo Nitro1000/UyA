@@ -1,8 +1,8 @@
 # UyA - PE102 - PRÁCTICAS y SEMINARIOS
-## Grupo 7: Jefry Izquierdo, Milton Daniel Rivas Quintero, Juan Carlos Vega Beltrán
+## Grupo 7: Milton Daniel Rivas Quintero, Juan Carlos Vega Beltrán
 
 
-## Práctica 4: [Introducción a Materialize](https://nitro1000.github.io/UyA/Practica4/)
+## Proyecto: [Proyecto Banco de Tiempo](https://nitro1000.github.io/UyA/ProyectoG7)
 
 **Ficheros del directorio**
   - [index.html](https://github.com/Nitro1000/UyA/blob/master/Practica4/index.html): Índice de la página WEB
